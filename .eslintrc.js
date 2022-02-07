@@ -1,5 +1,3 @@
-const { off } = require("process");
-
 module.exports = {
   parser: '@babel/eslint-parser',
   parserOptions: {
@@ -17,5 +15,6 @@ module.exports = {
     'semi': 'off',
     'comma-dangle': 'off',
     'require-jsdoc': 'off',
+    'operator-linebreak': 'off'
   }
 }
